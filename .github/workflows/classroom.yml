@@ -20,14 +20,14 @@ jobs:
       with:
         timeout: 10
         max-score: 20
-        setup-command: sudo -H pip3 install pytest
+        setup-command: ''
     - name: test2.py
       id: test2-py
       uses: education/autograding-python-grader@v1
       with:
         timeout: 10
         max-score: 20
-        setup-command: sudo -H pip3 install pytest
+        setup-command: ''
     - name: Autograding Reporter
       uses: education/autograding-grading-reporter@v1
       env:
