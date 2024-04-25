@@ -29,7 +29,6 @@ The test script (`test1.py`), (`test2.py`) is designed to check the correctness 
     ```bash
     python test1.py
     
-    ```   
     ``` 
     python test2.py
 5. Review the test results for each program. If all tests pass, the programs are working correctly.
